@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9tzn3w46(w9e_bzb22(rlayzr$(=$21h3xbyp-lwzudy6$7gjk
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL = 'users.IdivnifyUsers'
 
 # Application definition
 
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users',
+    'bookings',
+    
 ]
 
 MIDDLEWARE = [
