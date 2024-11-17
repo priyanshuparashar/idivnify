@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar"
 import HomePage from "./Pages/HomePage"
 
+
 const App = () => {
   return (
     <div>

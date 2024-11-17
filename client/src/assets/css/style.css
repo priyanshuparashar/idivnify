@@ -2467,7 +2467,7 @@ li.as_info_box p {
     outline: none !important;
 }
 .as_login_wrapper {
-    background-color: #101112;
+    /* background-color: #101112; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2481,7 +2481,7 @@ li.as_info_box p {
 
 .as_login_slider{
     background-image: url('../images/login_bg.jpg');
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     background-repeat:no-repeat ;
     border-radius: 10px 0 0 10px;
@@ -2489,15 +2489,18 @@ li.as_info_box p {
 .ad_login_box {
     background-color: #fff;
     border-radius: 10px;
+    
 }
 .as_login_detail {   
-    padding: 70px 40px 70px 20px;
+    padding: 270px 40px 70px 20px;
+    
 }
 .as_login_detail h1 {
     color: var(--dark-color1);
     font-weight:700;
     font-family: 'Inter', sans-serif;
-    font-size:30px
+    font-size:30px;
+   
 }
 
 .as_login_detail p {
@@ -2519,6 +2522,8 @@ li.as_info_box p {
 }
 .as_login_img img{
     display: inline-block;
+    margin-top: 30%;
+    margin-left: 100px;
 }
 .as_login_detail .as_btn{
     min-width: 100%;
